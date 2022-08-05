@@ -1,0 +1,407 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    transition: .5s ease all;
+    background-color: #ccc;
+    padding: none;
+    margin: none;
+}
+
+a {
+    text-decoration: none;
+    color: #ccc;
+    font-family: 'Bebas Neue', cursive;
+}
+
+li a:hover {
+    background-color: rgb(252, 175, 75);
+    border-radius: 50%;
+    box-shadow: 2px 2px 10px 0 rgb(252, 175, 75);
+    transition: .2s ease all;
+    color: rgb(82, 79, 79)
+}
+
+.log:hover {
+    background-color: rgb(252, 175, 75);
+    border-radius: 50%;
+    box-shadow: 2px 2px 10px 0 rgb(252, 175, 75);
+    transition: .2s ease all;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(19, 2, 37);
+}
+
+.user div img {
+    margin-right: 15px;
+    margin-left: 25px;
+}
+
+.user a {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: #ccc;
+}
+
+.user a:hover {
+    color: rgb(82, 79, 79)
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: -.2em;
+    margin-left: 25px;
+}
+
+.userIcon {
+    height: 25px;
+    width: 25px;
+}
+
+.links {
+    margin-left: -45px;
+}
+
+.nav ul li {
+    text-decoration: none;
+    display: inline-block;
+    margin: .8em;
+}
+
+.nav form input {
+    margin-top: 25px;
+    width: 300px;
+    height: 20px;
+    border: transparent;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.nav form input:focus {
+    outline: none;
+}
+
+
+.item {
+    background-color: rgb(16, 15, 22);
+    height: 150px;
+    width: 600px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    color: rgb(236, 139, 12);
+}
+
+.item:hover {
+    box-shadow: 2px 2px 15px 0 rgb(114, 253, 0);
+    border: rgb(114, 253, 0) 1px solid;
+}
+
+.item-flex {
+    display: flex;
+    justify-content: center;
+
+}
+
+.item-container {
+    display: flex;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+img {
+    height: 100px;
+    width: 120px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.data {
+    display: flex;
+    justify-content: space-around;
+}
+
+.prodname {
+    display: flex;
+    border-bottom: #fff 1px solid;
+    width: 450px;
+}
+
+.data p {
+    height: 25px;
+    width: 130px;
+    background-color: rgb(8, 8, 231);
+    color: rgb(179, 173, 173);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.data p:hover {
+    background-color: rgb(12, 12, 194);
+    color: rgb(240, 232, 232);
+}
+
+
+.cart-item {
+    display: flex;
+    justify-content: space-around;
+    height: 65px;
+    color: #fff;
+    background-color: rgb(49, 66, 66);
+    border-bottom: #ccc solid 1px;
+}
+
+.unidades {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.subTotal {
+
+    color: black;
+    text-align: center;
+    padding-top: 1em;
+    position: relative;
+    height: 45px;
+    background-color: greenyellow;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 700;
+
+}
+
+
+.info {
+    width: 700px;
+    margin-right: 2em;
+    text-align: left;
+    padding-left: 0%;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 100;
+    font-size: small;
+}
+
+.removeButton {
+    margin-top: 18px;
+    background-color: #f31;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+}
+
+
+.dark {
+    background-color: black;
+    color: #fff;
+    transition: .5s ease all;
+}
+
+div h4 {
+    text-align: center;
+}
+
+div p {
+    text-align: center;
+}
+
+.mostSold {
+
+    margin-top: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px; 
+    color: #000;
+    margin-bottom: 7rem;
+}
+
+.mostSoldItem {
+    border: #ccc solid 1.5px;
+    background-color: #fff;
+    text-align: center;
+    height: 310px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+.mostSoldItem:hover {
+    box-shadow: 2px 2px 5px 0 rgb(72, 72, 77);
+}
+
+.mostSoldItem a {
+    color: rgb(179, 173, 173);
+    border-radius: 3px;
+    margin-bottom: 2em;
+}
+
+.mostSoldItem a :hover {
+    color: #fff
+}
+
+.titlecont {
+    height: 35px;
+}
+
+.mostSold h5 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.mostSold p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.mostSoldLink {
+    background-color: rgb(8, 8, 231);
+    width: 60%;
+    border-radius: 5px;
+    margin-left: 20%;
+    margin-bottom: 10%;
+}
+
+.mostSoldLink :hover {
+    background-color: rgb(12, 12, 194);
+    color: #fff
+}
+
+.mostSold img {
+    margin-top: 15px;
+    height: 100px;
+}
+
+.cantidad {
+    width: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.contador-carrito p {
+    position: absolute;
+    color: #fff;
+    margin-top: -2em;
+    margin-left: 4.5em;
+    width: 14px;
+    height: 14px;
+    background-color: #f31;
+    border-radius: 50%;
+    font-size: 13px;
+}
+
+#switch img {
+    position: fixed;
+    margin-left: 93%;
+    margin-top: 23em;
+    height: 30px;
+    width: 30px;
+    background-color: #ff3;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.aside1 {
+    height: 1000px;
+    width: 250px;
+    background-image: url(./img/banner-vertical-6.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.aside2 {
+    height: 1000px;
+    width: 250px;
+    background-image: url(./img/banner-vertical-9.png);
+    background-size: 100%;
+    background-position: inherit;
+    background-repeat: no-repeat;
+}
+
+#cart {
+    background-color: #000;
+    border-top: greenyellow solid 2px;
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+.add-to-cart:hover {
+    cursor: pointer;
+}
+
+.removeButton:hover {
+    cursor: pointer;
+}
+
+.btnm:hover {
+    cursor: pointer;
+}
+
+.subTotal input:hover {
+    cursor: pointer;
+}
+
+.swi:hover {
+    cursor: pointer;
+}
+
+.separador h4 {
+    margin-top: 5em;
+    font-family: 'Kanit', sans-serif;
+}
+
+.footer-container {
+    background-color: #000;
+    height: 200px;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    border-top: 1px solid #fff;
+    
+}
+
+.footer-container ul li{
+    list-style-type: none
+}
+
+.media-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.media-container div{
+    height: 25px;
+    width: 25px; 
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.media-container img{
+    height: 25px;
+    width: 25px;  
+    border-radius: 50%;
+}
+
+.footer-container li {
+    font-family: 'Bebas Neue', cursive;
+}

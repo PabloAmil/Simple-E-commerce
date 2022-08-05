@@ -1,0 +1,21 @@
+[{
+    "id": 5,
+    "nombre": "Procesador Amd Ryzen 5 5600G 4.4 Ghz - AM4",
+    "precio": 45089,
+    "imgSrc": "./assets/img/cpu ryzen 5 5600G.jpeg"
+}, {
+    "id": 6,
+    "nombre": "Intel Core i7-10700K",
+    "precio": 76979,
+    "imgSrc": "./assets/img/Intel Core i7-10700K.jpeg"
+}, {
+    "id": 7,
+    "nombre": "cpu Ryzen 5 3600 ",
+    "precio": 45615,
+    "imgSrc": "./assets/img/cpu Ryzen 5 3600 .jpg"
+}, {
+    "id": 8,
+    "nombre": "Procesador Amd Ryzen 5 5600G 4.4 Ghz - AM4",
+    "precio": 45089,
+    "imgSrc": "./assets/img/cpu ryzen 5 5600G.jpeg"
+}]
