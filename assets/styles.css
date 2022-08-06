@@ -381,7 +381,11 @@ div p {
 }
 
 .footer-container ul li{
-    list-style-type: none
+    list-style-type: none;
+}
+
+.footer-container ul li:hover {
+    cursor: pointer;
 }
 
 .media-container {

@@ -69,7 +69,6 @@ function renderizarProducts() {
         </div>
     </div>
 </div>
-
     `
   }) // al hacer click llama a addToCart y le pasa el parametro product.id
 }
